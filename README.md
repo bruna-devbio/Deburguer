@@ -1,6 +1,6 @@
 # <Deburguer>
 
-## 4º projeto - Burger Queen Front-end desenvolvido no bootcamp SAP006 da[LABORATÓRIA](https://www.laboratoria.la/br) 
+## 4º projeto - Burger Queen Front-end desenvolvido no bootcamp SAP006 da [LABORATÓRIA](https://www.laboratoria.la/br) 
 
 ## Índice
 
@@ -88,28 +88,46 @@ atualizar a lista de pedidos e o total).
 ---
 ## 📃 Histórias de Usuários
 
+**Historia de usuário 1:**  
+Garçom/Garçonete deve poder entrar no sistema, caso o admin já lhe tenha dado as credenciais.
+E como garçom/garçonete quero entrar no sistema de pedidos.
+
+**Historia de usuário 2:**  
+Garçom/Garçonete deve ser capaz de anotar pedido do cliente
+Eu como garçom/garçonete quero poder anotar o pedido de um cliente para não depender da minha memória, saber quanto cobrar e poder enviar os pedidos para a cozinha para serem preparados em ordem.
+
+**Historia de usuário 3:**  
+Chefe de cozinha deve ver os pedidos.
+Eu como chefe de cozinha quero ver os pedidos dos clientes em ordem, poder marcar que estão prontos e poder notificar os garçons/garçonetes que o pedido está pronto para ser entregue ao cliente.
+
+**Historia de usuário 4:**  
+Eu como garçom/garçonete quero ver os pedidos que estão prontos para entregá-los rapidamente aos clientes.
 
 ---
+
 ## 💡 Protótipos 
 
 ### Paleta de Cores 
-![img](https://ik.imagekit.io/dqzqulyog87g/Paleta_Burguer_Queen_l4PUzHTYP6.jpeg?updatedAt=1631222475264)
+<div align="center" style="display: flex">
+  <img alt="paleta-cores" height="150" width="480" src="./src/img/PaletaDeburguer.png">
+</div>
 
 ---
 
 <div align="center" style="display: flex">
-  <img alt="prototipo-login" height="480" width="410" src="./src/img/Login.png">
+  <img alt="prototipo-login" height="380" width="480" src="./src/img/Login.png">
 
 </div>
 
 ---
 ## Como Utilizar
 
-- A tela inicial da aplicação traz a **Página de Login** que apresenta ao usário as opções de fazer o login com email e senha já cadastrados e entrar na plataforma do Divino Burger ou prosseguir para a Página de Cadastro;
+- A tela inicial da aplicação traz a **Página de Login** que apresenta ao usário as opções de fazer o login com email e senha já cadastrados e entrar na plataforma do Deburguer ou prosseguir para a Página de Cadastro;
 - Na **Página de Cadastro**, o funcionário pode cadastrar-se inserindo seus dados de Nome, E-mail, Senha e Setor de Trabalho;
 - Ao realizar qualquer uma dessas formas de acesso, o usuário será encaminhado para o seu respectivo ambiente:
     1. **Salão**: para os garçons/garçonetes, onde ocorrerá a anotação e encaminhamento dos pedidos para a cozinha;
     2. **Cozinha**: para os cozinheiros que receberão a demanda dos pedidos realizados.
+    3. **Pedidos**: para os garçons/garçonetes, onde ocorrerá a exibição de pedidos finalizados para serem entregues e um histórico de pedidos já entregues
 
 
 ---
@@ -188,16 +206,18 @@ Bibioteca do Javascript que auxilia na criação de interface
 
 ## ✔️ Resultados
 
+* #### Desktop
+
+![img](./src/img/NavegaçãoDesktop.gif)
+
+
 * #### Tablet
-<div style="display: flex" align="center">
 
-</div>
-
-* #### Responsivo
+![img](./src/img/TabletResponsive.gif)
 
 
 ---
-## 👩‍💻 Sobre as desenvolvedoras 
+## 👩‍💻 Colaboradoras 
 
 
 <table>
@@ -228,7 +248,7 @@ Bibioteca do Javascript que auxilia na criação de interface
             <a href="https://www.linkedin.com/in/brunacalixtodevjunior/"><img src="./src/img/linkedin.png" alt="ícone linkedin" width="20px" height="20px">
       </td>
       <td>
-            <a href="https://github.com/caxconte/"><img src="./src/img/github.png" alt="ícone github" width="20px" height="20px">
+            <a href="https://github.com/sabrinaaraujo-ds"><img src="./src/img/github.png" alt="ícone github" width="20px" height="20px">
             <a href="https://www.linkedin.com/in/sabrina-araujo-ds/"><img src="./src/img/linkedin.png" alt="ícone linkedin" width="20px" height="20px">
       </td>
 
