@@ -3,7 +3,7 @@
   border-bottom: 2px solid #c65758;
   background-color: transparent;
   width: 100%;
-  height: 25px;;
+  height: 25px;
 }
 
 .register-input {
@@ -13,3 +13,12 @@
   background-color: transparent;
   width: 100%;
 }
+.login-input, .register-input{
+  transition: 0.5s; 
+}
+
+.login-input:focus, .register-input:focus {
+  outline: none;
+  border-color:#D72929;
+}
+

@@ -20,7 +20,11 @@
     font-weight: bold;
     font-size: 1.0rem;
     background-color: rgba(206, 27, 27, 0.835);
+    transition: 0.4s;
+    cursor: pointer;
 }
 
-
+.button-menu:hover {
+  background-color: #f84242;
+}
 

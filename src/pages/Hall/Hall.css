@@ -35,3 +35,15 @@
   background-position: center;
   height: 80vh;
 }
+
+
+@media screen and (max-width: 992px){
+  .menu {
+    max-height: 800px;
+  }
+
+  .cart-container {
+    min-width: 40%;
+  }
+
+}

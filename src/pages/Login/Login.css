@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  
 }
 
 .logo {
@@ -16,7 +17,7 @@
 }
 
 .login {
-  width: 25%;
+  width: 27%;
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -25,6 +26,7 @@
   background-color: #fcb056;
   border-radius: 20px;
   position: relative;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .form-group {
@@ -41,6 +43,11 @@
   height: 40px;
   cursor: pointer;
   font-weight: bold;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: #f84242;
 }
 
 .go-to {
@@ -49,6 +56,11 @@
   bottom: 0;
   margin: 10%;
   text-align: center;
+}
+
+.go-to a {
+  color: white;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 992px) {

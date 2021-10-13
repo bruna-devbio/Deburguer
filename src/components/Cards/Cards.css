@@ -50,5 +50,24 @@ li {
   border-radius: 0% 0% 15% 15%;
   position: absolute;
   bottom: 0;
+  cursor: pointer;
 }
 
+
+@media screen and (max-width: 992px){
+  .each-card {
+    width: 140px;
+    height: 23vh;
+  }
+
+  .add-btn {
+    height: 4vh;
+  }
+
+  .image-item img {
+    width: 100px;
+    height: 10vh;
+    border-radius: 50%;
+   
+  }
+}
