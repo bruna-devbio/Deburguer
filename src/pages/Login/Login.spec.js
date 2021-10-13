@@ -1,20 +1,26 @@
 import React from 'react';
-import { fireEvent, render, screen } from '@testing-library/react';
-//import userEvent from '@testing-library/user-event';
+import {render, screen } from '@testing-library/react';
+import '@testing-library/jest-dom'
+import { BrowserRouter as Router } from 'react-router-dom';
 import Login from './Login'
-import {createMemoryHistory} from 'history'
-import {Router} from 'react-router-dom'
+
+
 
 describe('Login Form', () => {
-  const history = createMemoryHistory()
-  render(
-    <Router history={history}>
-      <Login />
+  it('should render email and password inputs in the page', () => {
+    render(<Router>
+      <Login/>
     </Router>)
 
-  it('should render the login page', () => {  
-    expect(screen.getByText(/Não tem uma conta?/i)).toBeInTheDocument();
+    expect(screen.getByPlaceholderText('E-mail')).toBeInTheDocument()
+    expect(screen.getByPlaceholderText('Senha')).toBeInTheDocument()    
   })
 
-  
+  it('should render a button', () => {
+    render(<Router>
+      <Login/>
+    </Router>)
+
+    expect(screen.getByRole('button')).toBeInTheDocument()
+  })
 })

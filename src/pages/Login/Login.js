@@ -39,9 +39,13 @@ const Login = () => {
 				.then((json) => {
 					const userToken = json.token;
 					localStorage.setItem('userToken', userToken)
-					if (json.id) {
+					if (json.id && json.role === 'hall') {
+						console.log(json.role)
 						history.push('/Hall')
-					} else {
+					} else if (json.id && json.role === 'kitchen') {
+						console.log(json.role)
+						history.push('/Kitchen')
+					}	else {
 						setErrors(ValidateInputs(values, json.code))
 					}
 				})
