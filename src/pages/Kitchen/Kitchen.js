@@ -124,7 +124,6 @@ const Kitchen = () => {
                                 onClick={() => handleClick(item, index)}
                                 buttonText='Finalizar Pedido'
                                 className='btn-fineshed'
-
                             >
 
                             </OrderInfo>

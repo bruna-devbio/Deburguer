@@ -5,8 +5,10 @@
   margin: 10%;
   background-color: rgba(252, 176, 86, 1);
   font-size: 0.8rem;
-  width: 49.5vh;
+  width: 23vw;
   height: 52vh;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+
 }
 
 .itens-order::-webkit-scrollbar {
@@ -43,13 +45,52 @@
   padding: 2%;
 }
 
-.change-status {
+.btn-fineshed {
   position: absolute;
+  width: 100%;
   bottom: 0;
   font-weight: bold;
   align-items: center;
+  height: 8vh;
+  font-weight: bold;
+  background-color: green;
+  color: white;
+}
+
+.btn-prepare {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  font-weight: bold;
+  align-items: center;
+  height: 8vh;
+  font-weight: bold;
+  background-color: rgb(192, 18, 18);
+  color: white;
 }
 
 span {
   color: black;
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .title-status {
+    font-size: 1.2rem;
+  }
+
+  .each-card-order {
+    width: 30vw;
+    height: 52vh;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .title-status {
+    font-size: 1.2rem;
+  }
+
+  .each-card-order {
+    width: 35vw;
+    height: 52vh;
+  }
 }
