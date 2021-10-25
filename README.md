@@ -1,6 +1,6 @@
 # <Deburguer>
 
-## 4º projeto - Burger Queen Front-end desenvolvido no bootcamp SAP006 da [LABORATÓRIA](https://www.laboratoria.la/br) 
+## 4º projeto - Burger Queen Front-end desenvolvido no bootcamp SAP006 da [Laboratória](https://www.laboratoria.la/br) 
 
 ## Índice
 
@@ -146,7 +146,7 @@ Eu como garçom/garçonete quero ver os pedidos que estão prontos para entregá
 
 Linguagem de programação interpretada estrutura
 
- ![img](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+ ![img](	https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 Bibioteca do Javascript que auxilia na criação de interface
 
